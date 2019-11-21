@@ -1,7 +1,9 @@
 # ESP_SOMA_python
 Implementation of the ESP-SOMA in Python
 
-[Full paper](https://doi.org/10.1109/CEC.2019.8790012)
+[Full paper: ESP-SOMA Solving CEC 2019 100-Digit Challenge](https://doi.org/10.1109/CEC.2019.8790012)
+
+[Full paper: ESP-SOMA solving Constrained Technological Design Optimization Problem](https://doi.org/10.1109/CEC.2019.8790047)
 
 ## Usage
 Sample use can also be seen at the end of the file __main.py__. 
