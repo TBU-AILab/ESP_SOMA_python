@@ -173,9 +173,11 @@ class ESP_SOMA:
                 #steps
                 for t in np.arange(self.step, self.pathLength, self.step):
                     
-                    prtVector = self.generatePRT(self.PRT[i])
+                    #prtVector = self.generatePRT(self.PRT[i])
                     #migration over leaders
                     for xL in xLeader:
+                
+                        prtVector = self.generatePRT(self.PRT[i])
                 
                         y = self.migration(self.P[i].features, xL.features, t, prtVector)
                 
